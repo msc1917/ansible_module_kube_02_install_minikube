@@ -1,0 +1,10 @@
+minikube: { version: 'v1.0.4',
+            os_user: { 
+              comment: "Minikube User",
+              user: "minikube",
+              uid: 1198,
+              group: "minikube",
+              gid: 1198,
+              groups: [ "docker", "sudo-nopwd" ]
+              } 
+            }
